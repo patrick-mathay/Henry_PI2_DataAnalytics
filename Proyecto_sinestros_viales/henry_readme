@@ -1,0 +1,149 @@
+INDIVIDUAL PROJECT Nº2
+Siniestros viales
+Welcome to the last solo project of the labs stage! On this occasion, they will have to do a job in the role of a Data Analyst.
+
+
+
+Description of the problem -context and role to be developed-
+
+Road accidents, also known as traffic accidents or traffic accidents, are events involving vehicles on public roads that can have various causes, such as collisions between cars, motorcycles, bicycles or pedestrians, being run over, collisions with fixed objects or falling vehicles. These incidents can have consequences ranging from property damage to serious or fatal injuries to those involved.
+
+In the context of a city like Buenos Aires, road accidents can be a major concern due to the high volume of traffic and population density. These incidents can have a significant impact on the safety of city residents and visitors, as well as road infrastructure and emergency services.
+
+## Road crash-related fatality rates are often a critical indicator of road safety in a region. These rates are generally calculated as the number of deaths per certain number of inhabitants or per certain number of registered vehicles. Reducing these rates is a key objective to improve road safety and protect the lives of people in the city.
+
+It is important to note that the prevention of road accidents involves measures such as road safety education, compliance with traffic rules, safe road and street infrastructure, as well as the promotion of safer vehicles. Tracking statistics and implementing effective policies are essential to address this problem adequately.
+
+Context
+In Argentina, nearly 4,000 people die every year in road accidents. Although many jurisdictions have managed to decrease the number of traffic accidents, it remains the leading cause of violent deaths in the country. Reports from the National Criminal Information System (SNIC), of the Ministry of National Security, reveal that between 2018 and 2022, 19,630 deaths were recorded in road accidents throughout the country. These figures equate to 11 people per day who were fatalities in traffic accidents.
+
+In 2022 alone, there were 3,828 fatal deaths in this type of event. Experts in the field indicate that in Argentina the probability of a person dying in a road accident is two or three times higher than in an act of criminal insecurity.
+
+Role to be developed
+## The (OMSV), a study center that is under the orbit of the Secretariat of Transport of the Government of the Autonomous City of Buenos Aires, asks us to develop a data analysis project, in order to generate information that allows local authorities to take measures to reduce the number of fatalities of road accidents. To this end, they provide us with a dataset on homicides in road accidents that occurred in the City of Buenos Aires during the period 2016-2021. This dataset is in xlsx format and contains two sheets called: facts and victims. You will also notice that it includes two additional sheets of data dictionaries, which can serve as a guide for a better understanding of the shared data.Observatorio de Movilidad y Seguridad Vial
+
+On the other hand, in the Support Material section you can find more information of interest regarding the available data and the Observatory that entrusts us with the work.
+
+Work proposal -minimum deliverables-
+It is important that when you start developing each item, and your demo, you also use the evaluation rubric. 😄
+
+EDA (Exploratory Data Analysis)
+
+## You should perform an exploratory analysis of the data in a notebook. Your steps must be clearly documented, with the corresponding conclusions in each graph used and analysis of what you observe, using Markdown cells for this purpose. The neatness of the notebook will be an aspect to evaluate. It is important to keep in mind that, in many opportunities and jobs, an EDA is a deliverable in itself.
+
+Along these lines, there are several essential aspects that must be addressed in any Exploratory Data Analysis and we will take it as a starting point to evaluate your performance in this section. These highlights include: searching for missing values, outliers, and duplicate records. Likewise, the use of consistent graphs according to the corresponding variable typology is essential.
+
+In case of making use of libraries such as pandas_profiling, it is essential to accompany the graphs with your own analyses.
+
+Dashboard
+## It must be functional and consistent with storytelling. The dasbhoard has to include filters, allowing you to explore the data in detail with the selection of each of them. In other words, it is essential that it be interactive. Also, it is expected that the design they implement will facilitate the interpretation of the information and its analysis, being important, for this, the clarity in the presentation of the data, aspects inherent to aesthetics, coherent choice of graphs according to the variables to be visualized, among other items.
+
+Análisis ⚠️
+
+## Not only the production of dashboards will be considered, but also the analyses and conclusions that can be drawn from them.
+
+KPIs
+
+## You must graph and measure the 2 KPIs proposed below, representing them properly in the dashboard. At the same time, you also have to propose, measure and graph a third KPI that you consider relevant to the topic. The two proposed KPIs are:
+
+## Reduce by 10% the homicide rate in road accidents in the last six months, in CABA, compared to the homicide rate in road accidents of the previous semester.
+
+We define the homicide rate in road accidents as the number of traffic fatalities per 100,000 inhabitants in a geographic area during a specific period of time. Its formula is: (Number of homicides in road accidents / Total population) * 100,000
+
+## Reduce the number of fatal accidents involving motorcyclists by 7% in the last year, in CABA, compared to the previous year.
+
+We define the number of fatal accidents involving motorcyclists in road accidents as the absolute number of fatal accidents involving victims riding motorcycles in a given period of time. Its formula for measuring the evolution of fatal accidents with motorcycle victims is: (Number of fatal accidents with motorcycle victims in the previous year - Number of fatal accidents with motorcycle victims in the current year) / (Number of fatal accidents with motorcycle victims in the previous year) * 100
+
+MUY IMPORTANTE review what a KPI is and how it differs from a conventional metric. In the supporting material they have reading that can be helpful.
+
+Repositorio de GitHub
+
+## The repository must contain a main Readme where they present, in the first instance, in a general way their project and detail what is in each file/folder of the repository itself. This Readme cannot be the same as the slogan we gave you. In turn, the Readme should include an analysis report based on your dashboards, as well as the analysis and functionality of the suggested KPIs.
+
+Challenge yourself and don't stay Junior, be Junior Advanced
+Thinking about reaching your Boom 🚀, we recommend incorporating the following challenges to have a much more complete and competitive portfolio:
+
+Create a database in a SQL engine, ingest the processed dataset, and use it as a data source for your dashboard in Power BI (or the visualization tool you use).
+Run Python scripts in your chosen data visualization tool.
+Cross-referencing data with complementary datasets, either to obtain new information or to be able to compare the information available for all platforms.
+Note: the completion of one or more of these items is not interchangeable with the minimum requirements established in the previous section "Work Proposal". Start with this section once you've met the minimum requirements, so you can challenge yourself and stand out from the rest.
+
+Data Source
+Obligatory:
+
+Buenos Aires Data
+Data Dictionary
+Complementary:
+
+Buenos Aires Data: You can use the Lesiones
+Any proprietary search dataset that complements and enhances the analysis. Remember the use of APIs and WebScrapping
+What we'll take into account when evaluating
+You will be evaluated in two major areas and !TechSoft
+
+Both have equal weight between them and both must be passing in order to have the quality of passing in this PIDA. Keep in mind that a minimum passing grade means having ALL items as "Good" 👌 Below we provide you again with the evaluation rubric with which you will be evaluated by your corrector@. Remember that your corrector@'s feedback is never indicative of your grade. If you have any doubts during your DEMO, ask your corrector@ to clearly clarify what the unmet learning objectives are.
+
+We hope it serves as a learning guide for you, and remember that it's not just about meeting requirements, it's about excelling at each level 🚀 💛
+
+Supporting material
+Notes for the use of the CABA's road accident homicide dataset
+Observatory of Mobility and Road Safety of the Autonomous City of Buenos Aires
+Tech
+EDA Class Review
+Code Review: Interactivity Dashboard, Pattern Z, Tooltips
+KPI's 4 students
+Code Review: DAX & Calculated Measurements
+Soft
+All the Workshops of this stage will be very useful to have a successful project!
+Final Recommendations
+You don't want to show any code in the exhibition! We recommend the From Data to Viz workshop to make it clearer to you about the dynamics and what is expected from your demo.
+
+We remind you to be punctual and test the correct functioning of the tools used before entering the meet.
+
+The DEMO, where you will defend your project, will be held on Thursday or Friday. You must be atent@ to your calendar to see what day and time corresponds to you.
+
+It will have a maximum total duration of 30 minutes, of which only 10 minutes will be for your presentation. It is important that you know how to manage your time well and have a 10-minute speech already prepared, since the remaining time will be dedicated to correction, repository review and feedback by the Henry Mentor.
+
+Disclaimer
+On behalf of Henry's team, we would like to clarify and emphasize that the purposes of the proposed projects are exclusively pedagogical, with the aim of carrying out projects that simulate a work environment, in which various topics adjusted to reality are worked on. They do not necessarily reflect the philosophy and values of the organization. In addition, Henry does not encourage or recommend that students and/or anyone reading the repositories (and project submissions) take action based on the data they may or may not have collected. All the information presented and results obtained in the projects should never be taken into account for real decision-making (especially in the areas of finance, health, politics, etc.).
+
+
+
+About
+Data Science PI03 Repository
+
+Resources
+ Readme
+ Activity
+ Custom properties
+Stars
+ 24 stars
+Watchers
+ 6 watching
+Forks
+ 220 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+8
+@LeandroFranchina
+@cvillarragamo
+@HX-FAshur
+@HX-FN3
+@jdeiloff
+@pjr95
+@AMarcosD
+@HX-JAragon
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact Us
+Manage cookies
+Do not share my personal information
